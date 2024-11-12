@@ -1,0 +1,117 @@
+body {
+  background-color: #ff91cd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #d966ff;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.logo-image {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.text-danger {
+  color: #ff0000;
+}
+
+/* Custom styling for Google Sign-In button */
+.g_id_signin {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #444;
+  padding: 10px;
+}
+
+.g_id_signin img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Navbar styling for dashboard */
+.navbar {
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #d966ff;
+}
+
+/* Dashboard content */
+.container h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Discount Banner on Dashboard */
+.discount-banner {
+  background-color: #f5f5f5;
+  padding: 40px;
+  text-align: center;
+  font-size: 2em;
+  color: #ff3366;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Category and Best Seller Sections */
+.category-section,
+.best-seller-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.category-icons img,
+.best-seller img {
+  border-radius: 10px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.best-seller-item {
+  margin-top: 15px;
+}
